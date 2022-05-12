@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerCo - The Ultimate Burger Company</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <header id="jumbotron">
+        <div class="jumbotron__overlay">
+        <nav class="navbar">
+            <div class="navbar-container">
+              <div class="navbar-brand">
+                <a href="index.html">
+                  <img src="images/BurgerCo-Logo.svg" alt="BurgerCo - Dies Besten Burger im Westen Deutschlands" />
+                </a>
+              </div>
+      
+              <ul class="navbar-nav-right">
+                <li>
+                  <a href="#jumbotron">Home</a>
+                </li>
+                <li>
+                  <a href="#about">Our Story</a>
+                </li>
+                <li>
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#menue">Menu</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+              </ul>
+      
+              <!-- Hamburger Menu -->
+              <button type="button" class="hamburger" id="menu-btn">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+              </button>
+            </div>
+          </nav>
+          <!-- Mobile Menu -->
+            <div class="mobile-menu hidden" id="menu">
+                <ul>
+                    <li>
+                        <a href="#jumbotron">Home</a>
+                      </li>
+                      <li>
+                        <a href="#about">Our Story</a>
+                      </li>
+                      <li>
+                        <a href="#gallery">Gallery</a>
+                      </li>
+                      <li>
+                          <a href="#menue">Menu</a>
+                      </li>
+                      <li>
+                          <a href="#contact">Contact</a>
+                      </li>
+            </ul>
+        </div>
+        <section class="jumbotron__text">
+            <h1>Regionale Burger - <br/> Richtig gemacht</h1>
+            <p>Begleiten Sie uns zu Ihrer nächsten Mahlzeit. <br/>Wir bringen die Säfte zum Fließen.</p>
+            <a class="jumbotron__btn btn" href="#menue">Zum Menu</a>
+        </section>
+    </div>
+    </header>
+    <main>
+        <section id="about">
+            <section class="about__img">
+                <img src="images/burger_in_hand.webp" alt="BurgerCo - Frische Burger">
+            </section>
+            <section class="about__text">
+                <h2>Erwarten Sie immer</h2>
+                <h3>Toller Geschmack, Gute Zeiten</h3>
+                <p>Hier bei BurgerCo sind wir stolz auf die Qualität des Fleisches, das für jeden einzelnen Burger verwendet wird. Wenn es nicht perfekt und gegrillt ist, so wie Sie es bestellt haben, werden wir es nicht versenden.  Wir garantieren, dass der Burger, der an Ihren Tisch geliefert wird, der beste Burger ist, den Sie hätten bestellen können.</p>
+            </section>
+        </section>
+        <section id="gallery">
+            <h2>Unsere Burger in bilder</h2>
+            <div class="gallery__container">
+            <img src="images/Burger_and_chips.jpg" alt="BurgerCo - Burger and Chips">
+            <img src="images/burger_bacon_closeup.webp" alt="BurgerCo - mehr text">
+            <img src="images/burger_blue_closeup.webp" alt="BurgerCo - mehr text">
+            <img src="images/burger_closeup.jpg" alt="BurgerCo - mehr text">
+            <img src="images/burger_closeup_extreme.jpg" alt="BurgerCo - mehr text">
+            <img src="images/burger_closeup_wood.jpg" alt="BurgerCo - mehr text">
+            <img src="images/burger_menu_sauce-2.jpg" alt="BurgerCo - mehr text">
+            <img src="images/burger_hawai_meal.webp" alt="BurgerCo - mehr text">
+            <img src="images/burger_sliders_with_basil.jpg" alt="BurgerCo - mehr text">
+        </div>
+        </section>
+        <section id="menue">
+            <div class="menue__text">
+                <h2>nur das beste</h2>
+                <h3>BURGERS & SIDES</h3>
+                <p>Unsere Speisekarte reicht von alter Schule bis hin zu einigen umwerfenden individuelle Burgern und Beilagen.</p>
+                <p>Hier ein kleiner Auszug aus unserem Menu</p>
+                <table>
+                    <tbody>
+                      <tr>
+                        <td>Classic Cheese Burger</td>
+                        <td>€13,00</td>
+                      </tr>
+                      <tr>
+                        <td>Baconator Burger</td>
+                        <td>€15,00</td>
+                      </tr>
+                      <tr>
+                        <td>Slap Your Face Burger</td>
+                        <td>€12,00</td>
+                      </tr>
+                      <tr>
+                        <td>Pommes Frites</td>
+                        <td>€6,00</td>
+                      </tr>
+                      <tr>
+                        <td>Boiled Peanuts</td>
+                        <td>€2,00</td>
+                      </tr>
+                      <tr>
+                        <td>Chili Slices</td>
+                        <td>€2,00</td>
+                      </tr>
+                    </tbody>
+                    </table>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Besuchen Sie Uns</h2>
+            <h3>&Ouml;ffnungszeiten &amp; Adresse</h3>
+            <div class="contact__details">
+                <section class="times">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Dienstag - Donnerstag</td>
+                                <td>16:00 Uhr bis 23:00 Uhr</td>
+                            </tr>
+                            <tr>
+                                <td>Freitag &amp; Samstag</td>
+                                <td>16:00 Uhr bis 24:00 Uhr</td>
+                            </tr>
+                            <tr>
+                                <td>Sonntag</td>
+                                <td>16:00 Uhr bis 22:30 Uhr</td>
+                            </tr>
+                            <tr>
+                                <td>Montag</td>
+                                <td>Geschlossen</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="adresse">
+                    <address>BurgerCo Bielefeld</address>
+                    <address>Hauptstrasse 11</address>
+                    <address>33647 Bielefeld</address>
+                    <address>0521 - 3330 2221</address>
+                    <address>service@burgerco.de</address>
+                </section>
+            </div>
+        </section>        
+    </main>
+    <footer>
+       <p>&copy; 2022 by Mike Berg</p>
+    </footer>
+</body>
+</html>

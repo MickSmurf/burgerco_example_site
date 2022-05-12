@@ -24,6 +24,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.4;
   color: #000;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -54,6 +55,27 @@ h2 {
 h3 {
     font-size: 35px;
     text-transform: uppercase;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border-radius: 100%;
+  background: var(--color-primary);
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.back-to-top-icon {
+  width: 1rem;
+  height: 1rem;
+  color: #fff;
+}
+
+.hidden {
+  display: none;
 }
 
 /* Navigation */
